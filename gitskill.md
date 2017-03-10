@@ -1,11 +1,12 @@
-/*****设置别名*****/
-$ git config --global alias.cg "config --global" 
+/*****设置别名*****/     
+$ git config --global alias.cg "config --global"  
 $ git cg alias.st status   
 $ git cg alias.lgp "log --color --graph --pretty=oneline --abbrev-commit"   
 $ git cg alias.lg "log --color --pretty=oneline --abbrev-commit"   
 $ git cg alias.br branch   
 $ git cg alias.ck checkout   
 $ git cg alias.cm commit   
+$ git cg alias.pp "push origin"
 
 
 #Git简介
