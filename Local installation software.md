@@ -50,7 +50,7 @@
 
         `npm install -g cnpm --registry=https://registry.npm.taobao.org`
 
-13. [phthon](https://www.python.org/downloads/windows/)
+13. [python](https://www.python.org/downloads/windows/)
     * selenium
 
         `pip install selenium`

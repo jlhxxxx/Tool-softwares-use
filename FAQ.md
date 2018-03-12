@@ -44,6 +44,8 @@
   git push origin 
   ```
 
+* [VSCode tasks.json中的各种替换变量的意思 ${workspaceFolder} ${file} ${fileBasename} ${fileDirname}等](http://blog.csdn.net/bat67/article/details/78302870)
+
 ## windows
 
 *  [有线网卡与无线网卡同时使用](http://www.cnblogs.com/lovemo1314/archive/2010/10/08/1846057.html)
@@ -52,3 +54,5 @@
 ## linux
 
 * [linux下杀死进程（kill）的N种方法](http://blog.csdn.net/andy572633/article/details/7211546)
+* [修改 ubuntu 默认启动项](https://jingyan.baidu.com/article/afd8f4de58959134e386e969.html)
+
