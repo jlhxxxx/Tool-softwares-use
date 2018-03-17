@@ -1,79 +1,114 @@
-1. [cmder](https://github.com/cmderdev/cmder) 内置 git
+# 常用软件
 
-    [Cmder--Windows下命令行利器](https://www.cnblogs.com/zqzjs/archive/2016/12/19/6188605.html)
+## 效率软件
 
-    `ls`不显示中文：在Settings > Startup > Environment里添加：set LANG=zh_CN.UTF8
+* 命令行工具：[cmder](https://github.com/cmderdev/cmder) 内置 git [FAQ]()
+* 档案搜索
+  * [Listary 5.00.2843 免安裝中文版](https://www.azofreeware.com/2013/09/listary-4021360-windows-everything.html)
+* 桌面整理
+  * 桌面整理fences3.0.5中文破解版：[百度云](https://pan.baidu.com/s/1k7DqMil-CAH4Ejlx2AHwjw) 密码`xy8y`
+* sync
+* Markdown
+  * [typora](https://www.typora.io/)
+* 流程图思维导图：百度云（无法分享）
+  * EdrawMaxProcn7.8
+  * Mindmanager_9
+  * VisioViewer
+  * 在线：[ProcessOn](https://www.processon.com/diagrams)
 
-    修改`λ`为`$`：将`cmder\vendor\clink.lua`中第41行中{lamb}修改为$ 
-    即，将`local cmder_prompt = "\x1b[1;32;40m{cwd} {git}{hg} \n\x1b[1;30;40m{lamb} \x1b[0m"`修改为`local cmder_prompt = "\x1b[1;32;40m{cwd} {git}{hg} \n\x1b[1;30;40m$ \x1b[0m"`
+## 开发软件
 
-    [参考](http://blog.csdn.net/qq_22186119/article/details/77453227)
+### 编辑器IDE
 
-2. android相关
-    * [android_sdk](http://tools.android-studio.org/index.php/sdk)
-    
-      教程：[安装 Android SDK](http://www.testclass.net/appium/appium-base-sdk/)
-    * [adb 驱动](adbshell.com)
+* [Eclipse](https://www.eclipse.org)
+  * [完整包](https://www.eclipse.org/downloads/eclipse-packages/)
+  * [汉化包](www.eclipse.org/babel/downloads.php)
 
-3. [apache-jmeter](http://jmeter.apache.org/download_jmeter.cgi)
-    * [plugins](http://www.testclass.net/jmeter/install-plugins/)
-    * [apache-ant](http://ant.apache.org/bindownload.cgi)
+* MyEclipse
 
-      [基于 Ant 的 JMeter 性能自动化测试](http://blog.csdn.net/wetest_tencent/article/details/51154419)
-    * [badboy](http://www.badboy.com.au/)
+  * 破解版[百度云](https://pan.baidu.com/s/12Rw0oo4jxCE6Se2H6W0j_g) 密码`ii2z`：含MyEclipse10（包括SVN，反编译插件）、2014、2016
+  * [FAQ]()
 
-4. [apache-tomcat](https://tomcat.apache.org/index.html)
+* [vscode](https://code.visualstudio.com/) - **自用**
 
-5. [driver](http://www.testclass.net/selenium_python/selenium3-browser-driver/)
-    * [chrome](https://sites.google.com/a/chromium.org/chromedriver/home)
-    * [firefox](https://github.com/mozilla/geckodriver/releases)
-    * [IE](http://selenium-release.storage.googleapis.com/index.html)
-    * [edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+  * [官方文档](https://code.visualstudio.com/docs)
 
-      系统设置–>高级–>环境变量–>系统变量–>Path
+  * 同步：安装`setting sync`插件
 
-6. [eclipse](https://www.eclipse.org)
-    * [汉化包](www.eclipse.org/babel/downloads.php)
+    Gist: `448d5bfcb9c48f5e07f97af7c8f636a7`
 
-7. [git](https://git-scm.com/download/win)
+* [notepad++](https://notepad-plus-plus.org/)
 
-8. [java](http://www.testclass.net/selenium_java/install-java/)
+  - 首选项-语言：制表符款宽度 `4`，替换为空格
 
-9. [jenkins](http://www.testclass.net/jenkins/install/)
+### 运行环境
 
-10. jsunit
+* [JavaSE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+  * [配置环境变量](http://www.testclass.net/selenium_java/install-java/)
 
-11. MyEclipse
+* [Python](https://www.python.org/downloads/windows/)
 
-12. [nodejs](https://nodejs.org/en/)
-    * [cnpm](https://npm.taobao.org/)
+  * [Python3官方文档](https://docs.python.org/3/library/index.html)
 
-        `npm install -g cnpm --registry=https://registry.npm.taobao.org`
+* [Node.js](https://nodejs.org/en/)
 
-13. [phthon](https://www.python.org/downloads/windows/)
-    * selenium
+  - 淘宝 NPM 镜像：[cnpm](https://npm.taobao.org/)
 
-        `pip install selenium`
+    ```
+    $ npm install -g cnpm --registry=https://registry.npm.taobao.org
+    ```
 
-    * Locust 负载测试
+* [apache-tomcat](https://tomcat.apache.org/index.html)
 
-        `pip install locustio`
-    
-    * 配置 notepad++
-        * 制表符款宽度 4，替换为空格
+* 持续集成工具：[Jenkins](https://jenkins.io/)
 
-14. [vscode](https://code.visualstudio.com/)
+  * [安装部署](http://www.testclass.net/jenkins/install/)
 
-    1. 同步：安装setting sync
+    `admin/123456	jlhxxxx/jlhxxxx@gmail.com`
 
-       vscode setting sync
+### 数据库
 
-       Gist: 448d5bfcb9c48f5e07f97af7c8f636a7
+* [Oracle Database](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)
+  * PLSQL：[百度云](https://pan.baidu.com/s/1aHOHZC6W23Vz6oHBAuHhDA) 密码`vpq3`
 
-15. [postman](https://www.getpostman.com/)
+### 测试工具
 
-16. Jenkins
+* [apache-JMeter](http://jmeter.apache.org/download_jmeter.cgi)
 
-    admin/123456	jlhxxxx/jlhxxxx@gmail.com
+  Binaries - 是已经编译好的可执行版，解压就可以用。
 
-17. [TortoiseSVN](https://tortoisesvn.net/downloads.zh.html)
+  Source - 是源代码版，需要自己编译成可执行软件。 
+
+  - 插件管理：[jmeter-plugins](https://www.jmeter-plugins.org/)及安装[教程](http://www.testclass.net/jmeter/install-plugins/)
+  - 录制脚本：[badboy](http://www.badboy.com.au/)
+  - 自动化：[apache-ant](http://ant.apache.org/bindownload.cgi)使用参考[基于 Ant 的 JMeter 性能自动化测试初探](https://github.com/jlhxxxx/Test/blob/master/JMeter.md#%E4%B8%89%E5%9F%BA%E4%BA%8E-ant-%E7%9A%84-jmeter-%E6%80%A7%E8%83%BD%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95%E5%88%9D%E6%8E%A2)
+
+* Selenium使用的浏览器驱动
+
+  * [配置环境变量](http://www.testclass.net/selenium_python/selenium3-browser-driver/)
+  * Firefox浏览器驱动：[geckodriver](https://github.com/mozilla/geckodriver/releases)
+  * Chrome浏览器驱动：[chromedriver](https://sites.google.com/a/chromium.org/chromedriver/home) , [taobao备用地址](https://npm.taobao.org/mirrors/chromedriver)
+  * IE浏览器驱动：[IEDriverServer](http://selenium-release.storage.googleapis.com/index.html)
+  * Edge浏览器驱动：[MicrosoftWebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver)
+  * Opera浏览器驱动：[operadriver](https://github.com/operasoftware/operachromiumdriver/releases)
+  * PhantomJS浏览器驱动：[phantomjs](http://phantomjs.org/)
+
+* 接口测试：[postman](https://www.getpostman.com/)
+
+* 单元测试
+
+  * Java：[JUnit 5](https://junit.org/junit5/)
+  * Javascript：JsUnit
+
+### Android开发
+
+* [android_sdk](http://tools.android-studio.org/index.php/sdk)
+
+  教程：[安装 Android SDK](http://www.testclass.net/appium/appium-base-sdk/)
+* [adb 驱动](adbshell.com)
+
+## 其他工具
+
+* [TortoiseSVN](https://tortoisesvn.net/downloads.zh.html)
+* redmine
+  * [bitnami-redmine](https://bitnami.com/stack/redmine/installer)
