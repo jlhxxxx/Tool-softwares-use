@@ -125,6 +125,23 @@
 
   变量名：`CLASSPATH` 变量值：`.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
+### VS Code
+
+* [预定义变量](https://code.visualstudio.com/docs/editor/variables-reference#_predefined-variables)
+  * `${workspaceRoot}` =`${workspaceFolder}` VS Code当前打开的文件夹
+  * `${workspaceFolderBasename} ` VS Code中打开文件夹的路径, 但不包含"/"
+  * `${file}` 当前打开的文件
+  * `${relativeFile} `相对于workspaceRoot的相对路径
+  * `${fileBasename} `当前打开文件的文件名
+  * `${fileBasenameNoExtension}` 当前打开文件的文件名，不含扩展名
+  * `${fileDirname} `当前打开文件的目录名，是绝对路径
+  * `${fileExtname}` 当前打开文件的拓展名，如`.json`
+  * ``${cwd}` the task runner's current working directory on startup
+  * `${lineNumber}`  the current selected line number in the active file
+* 环境变量
+  * 环境变量`${env.Name}` (e.g. `${env.PATH}`)
+* 参考[变量替代](https://code.visualstudio.com/docs/editor/tasks#_variable-substitution)
+
 ### WAMP
 
 * [windows环境下wampserver的配置教程——超级详细](http://blog.csdn.net/wuguandi/article/details/53561253)
