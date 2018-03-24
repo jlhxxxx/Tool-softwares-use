@@ -160,6 +160,16 @@
 - [系统蓝屏日志DMP文件分析工具WinDbg及教程](https://www.yeboyzq.com/zhuomianweihu/xitongyingyongjiqiao/520.html)
 - [windbg蓝屏dmp文件分析](http://blog.csdn.net/greless/article/details/71440505)
 
+### win10
+
+* 应用商店卸载后重新安装，管理员权限运行`powershell`
+
+  ```powershell
+  Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+  ```
+
+  ​
+
 ## linux
 
 * [linux下杀死进程（kill）的N种方法](http://blog.csdn.net/andy572633/article/details/7211546)
