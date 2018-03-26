@@ -152,8 +152,15 @@
 
 ## windows
 
-*  [有线网卡与无线网卡同时使用](http://www.cnblogs.com/lovemo1314/archive/2010/10/08/1846057.html)
-*  [在家轻轻松松上IPv6站点之Teredo篇](http://bbs.pcbeta.com/viewthread-1580771-1-1.html)
+* [有线网卡与无线网卡同时使用](http://www.cnblogs.com/lovemo1314/archive/2010/10/08/1846057.html)
+
+* [在家轻轻松松上IPv6站点之Teredo篇](http://bbs.pcbeta.com/viewthread-1580771-1-1.html)
+
+* 关闭 ie 安全检查
+
+  运行：gpedit.msc
+  本地计算机策略>计算机配置>管理模块>Windows组件>Internet Explorer
+  右边找到“关闭安全设置检查功能”设置为“已启用”
 
 ### win bluescreen analysis
 
