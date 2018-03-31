@@ -125,6 +125,13 @@
 
   变量名：`CLASSPATH` 变量值：`.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
+### Total Commander
+
+* [用Total Commander替换windos默认资源管理器的方法](https://blog.csdn.net/u010528745/article/details/41759463)
+
+
+* [TC 插件中文主页](http://xbeta.info/tc/addons.htm)
+
 ### VS Code
 
 * [预定义变量](https://code.visualstudio.com/docs/editor/variables-reference#_predefined-variables)
