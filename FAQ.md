@@ -182,7 +182,11 @@
   Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
   ```
 
-  ​
+* 关闭“更新并关机”
+
+  regedit--HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
+
+  新建SWORD 32位值，名称：`NoAutoRebootWithLoggedOnUsers`，值：`1`。
 
 ## linux
 
