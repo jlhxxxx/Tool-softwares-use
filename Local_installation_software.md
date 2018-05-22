@@ -29,7 +29,7 @@
   * 破解版[百度云](https://pan.baidu.com/s/12Rw0oo4jxCE6Se2H6W0j_g) 密码`ii2z`：含MyEclipse10（包括SVN，反编译插件）、2014、2016
   * [FAQ]()
 
-* [vscode](https://code.visualstudio.com/) - **自用**
+* [VsCode](https://code.visualstudio.com/) - **自用**
 
   * [官方文档](https://code.visualstudio.com/docs)
 
@@ -69,7 +69,7 @@
 ### 数据库
 
 * [Oracle Database](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)
-  * PLSQL：[百度云](https://pan.baidu.com/s/1aHOHZC6W23Vz6oHBAuHhDA) 密码`vpq3`
+  * [PLSQL](https://www.allroundautomations.com/)：[百度云](https://pan.baidu.com/s/1dz_T-0W-D-XWZ9pKqqTArA)密码`zthl`，可在官网下载汉化包。
 
 ### 测试工具
 
