@@ -8,6 +8,8 @@
 * 桌面整理
   * 桌面整理fences3.0.5中文破解版：[百度云](https://pan.baidu.com/s/1k7DqMil-CAH4Ejlx2AHwjw) 密码`xy8y`
 * sync
+  * sync
+  * verysync
 * Markdown
   * [typora](https://www.typora.io/)
 * 流程图思维导图：百度云（无法分享）
@@ -29,7 +31,7 @@
   * 破解版[百度云](https://pan.baidu.com/s/12Rw0oo4jxCE6Se2H6W0j_g) 密码`ii2z`：含MyEclipse10（包括SVN，反编译插件）、2014、2016
   * [FAQ]()
 
-* [VsCode](https://code.visualstudio.com/) - **自用**
+* [VSCode](https://code.visualstudio.com/) - **自用**
 
   * [官方文档](https://code.visualstudio.com/docs)
 
