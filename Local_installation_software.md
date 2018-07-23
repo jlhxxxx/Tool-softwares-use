@@ -3,6 +3,8 @@
 ## 效率软件
 
 * 命令行工具：[cmder](https://github.com/cmderdev/cmder) 内置 git [FAQ]()
+* [make](http://www.gnu.org/software/make/)
+  * [Make for Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
 * 档案搜索
   * [Listary 5.00.2843 免安裝中文版](https://www.azofreeware.com/2013/09/listary-4021360-windows-everything.html)
 * 桌面整理
