@@ -131,6 +131,11 @@
 
 * [TC 插件中文主页](http://xbeta.info/tc/addons.htm)
 
+### VirtualBox
+
+* VirtualBox下虚拟机win7无法更改分辨率的问题
+  * 在VirtualBox目录下执行：`$ VBoxManage setextradata global GUI/MaxGuestResolution any`
+
 ### VS Code
 
 * [预定义变量](https://code.visualstudio.com/docs/editor/variables-reference#_predefined-variables)
