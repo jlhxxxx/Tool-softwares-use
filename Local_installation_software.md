@@ -48,6 +48,7 @@
 ### 运行环境
 
 * [JavaSE](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
   * [配置环境变量](http://www.testclass.net/selenium_java/install-java/)
 
 * [Python](https://www.python.org/downloads/windows/)
@@ -61,6 +62,10 @@
     ```
     $ npm install -g cnpm --registry=https://registry.npm.taobao.org
     ```
+
+* [PhantomJS](http://phantomjs.org)
+
+    * 设置环境变量即可
 
 * [apache-tomcat](https://tomcat.apache.org/index.html)
 

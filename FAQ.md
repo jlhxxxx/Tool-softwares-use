@@ -124,6 +124,22 @@
 
   变量名：`CLASSPATH` 变量值：`.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;`
 
+* Java切换版本无效
+
+  Java1.7以上版本，安装结束后安装程序会自动将java.exe、javaw.exe、javaws.exe三个可执行文件复制到C:\Windows\System32目录，这个目录在WINDOWS环境变量中的优先级高于JAVA_HOME设置的环境变量优先级，故此直接更改JAVA_HOME会无效。
+
+  另外，JDK1.8安装版本，还会在C:\ProgramData\Oracle\Java目录中生成一些配置文件，并同时将此目录写到环境变量中的Path中。
+
+  **解决方案**：
+
+  删除C:\Windows\System32目录下java.exe、javaw.exe、javaws.exe三个文件。
+
+  删除Path中C:\ProgramData\Oracle\Java\javapath配置
+
+
+  或者：
+  因为PATH环境变量中默认将system32等系统重要目录添加在最前面，所以运行java -version时当然是调用system32目录下的java.exe了。所以只要将`%JAVA_HOME%/bin`这一句放到PATH环境变量的最前面，问题解决。
+
 ### Total Commander
 
 * [用Total Commander替换windos默认资源管理器的方法](https://blog.csdn.net/u010528745/article/details/41759463)
