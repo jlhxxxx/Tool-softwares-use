@@ -69,9 +69,13 @@
 
 * [apache-tomcat](https://tomcat.apache.org/index.html)
 
-* 持续集成工具：[Jenkins](https://jenkins.io/)
+* 持续集成工具：
 
-  * [安装部署](http://www.testclass.net/jenkins/install/)
+  * [Buildbot](http://buildbot.net/)
+
+  * [Jenkins](https://jenkins.io/)
+
+    [安装部署](http://www.testclass.net/jenkins/install/)
 
     `admin/123456	jlhxxxx/jlhxxxx@gmail.com`
 
