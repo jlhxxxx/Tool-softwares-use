@@ -82,7 +82,7 @@
 ### 数据库
 
 * [Oracle Database](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)
-  * [PLSQL](https://www.allroundautomations.com/)：[百度云](https://pan.baidu.com/s/1dz_T-0W-D-XWZ9pKqqTArA)密码`zthl`，可在官网下载汉化包。
+  * [PLSQL](https://www.allroundautomations.com/)：[百度云](https://pan.baidu.com/s/1dz_T-0W-D-XWZ9pKqqTArA)密码`zthl`，可在官网下载[汉化包](https://www.allroundautomations.com/plsqldevlang/)。
 
 ### 测试工具
 

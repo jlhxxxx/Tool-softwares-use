@@ -113,7 +113,6 @@
     FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-11..mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /norestart"
     ```
 
-
 ### Java
 
 * 设置环境变量（在系统命令提示符中输入`java`和`javac`检验）
@@ -139,6 +138,14 @@
 
   或者：
   因为PATH环境变量中默认将system32等系统重要目录添加在最前面，所以运行java -version时当然是调用system32目录下的java.exe了。所以只要将`%JAVA_HOME%/bin`这一句放到PATH环境变量的最前面，问题解决。
+
+### Python
+
+#### package install
+
+* `crypto`：AES加密解密相关
+
+    [解释Crypto模块怎么就这么"皮"？No module named "Crypto"](https://www.cnblogs.com/fawaikuangtu123/p/9761943.html)
 
 ### Total Commander
 
@@ -211,3 +218,7 @@
 ## linux
 
 * [linux下杀死进程（kill）的N种方法](http://blog.csdn.net/andy572633/article/details/7211546)
+* [解决：connect Network is unreachable 和 ping unknown host www.baidu.com](<https://blog.csdn.net/weixin_36343850/article/details/78632561>)
+    - 只能ping通内网： 说明网关没有设置好，不能通过网关将请求转发到路由器
+    - ping其他远程主机出现unknown host：说明DNS服务器有问题，不能将主机名解析成ip地址，所以更不用说访问了
+
